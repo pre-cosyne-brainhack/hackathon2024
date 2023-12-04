@@ -24,10 +24,10 @@ function Header() {
   return (
     <>
       <Head>
-        <title>COSYNE Brainhack 2024</title>
+        <title>Pre-COSYNE Brainhack 2024</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="COSYNE Brainhack 2024" key="desc" />
-        <meta property="og:title" content="COSYNE Brainhack 2024" />
+        <meta name="description" content="Pre-COSYNE Brainhack 2024" key="desc" />
+        <meta property="og:title" content="Pre-COSYNE Brainhack 2024" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cosyne-brainback.github.io/hackathon2024/" />
         <meta property="og:description" content="Let's get together to learn about open science and to collaborate on neuroscience projects!" />
@@ -35,7 +35,7 @@ function Header() {
       </Head>
       <header className="font-display w-full absolute top-0 left-0 h-fit right-0 justify-center px-1 py-2 bg-dirt text-gold uppercase z-50">
         <div className="flex w-full max-w-screen-xl 8xl:max-w-screen-6xl px-4 mx-auto">
-          <h1 className="text-3xl"><Link href="/">COSYNE Brainhack 2024</Link></h1>
+          <h1 className="text-3xl"><Link href="/">Pre-COSYNE Brainhack 2024</Link></h1>
           <nav className="flex-grow justify-end items-start md:items-center flex group text-lg lg:text-lg">
             <div className="hidden group-focus-within:flex md:flex gap-4 justify-end flex-col md:flex-row mb-4 mr-2 md:mb-0">
               <div><Link href="/code-of-conduct">Code of Conduct</Link></div>

@@ -12,13 +12,13 @@ export default function CodeOfConduct() {
         <div className="bg-sand flex items-center justify-center py-0">
           <div className="max-w-6xl m-12 mt-0 md:m-16 md:mt-0">
             <h3>INTRODUCTION</h3>
-            Although COSYNE Brainhack is not associated with the main COSYNE conference, we follow an adapted
+            Although Pre-COSYNE Brainhack is not associated with the main COSYNE conference, we follow an adapted
             version of the COSYNE Code of Conduct, except with different contact information and adjustments for
             our different scopes.
 
             <h3>PURPOSE</h3>
             <p>
-            At COSYNE Brainhack, we strive for open and honest intellectual debate as part of a welcoming and inclusive
+            At Pre-COSYNE Brainhack, we strive for open and honest intellectual debate as part of a welcoming and inclusive
             atmosphere. This requires a community and an environment that recognizes and respects the
             inherent worth of every person.
             </p>
@@ -47,13 +47,13 @@ export default function CodeOfConduct() {
             <h3>RESPONSIBILITIES</h3>
             <p>
             All participants, volunteers, organizers, reviewers, speakers, sponsors, and volunteers (referred
-            to as “Participants” collectively throughout this document) at COSYNE Brainhack---
+            to as “Participants” collectively throughout this document) at Pre-COSYNE Brainhack---
             are required to agree with this Code of Conduct both
             during an event and on official communication channels, including social media.
             Sponsors are equally subject to this Code of Conduct. In particular, sponsors should not use
             images, activities, or other materials that are of a sexual, racial, or otherwise offensive nature.
-            This code applies both to official sponsors as well as any organization that uses the COSYNE Brainhack
-            name as branding as part of its activities at or around COSYNE Brainhack.
+            This code applies both to official sponsors as well as any organization that uses the Pre-COSYNE Brainhack
+            name as branding as part of its activities at or around Pre-COSYNE Brainhack.
             </p>
             <p>
             Organizers will enforce this Code, and it is expected that all Participants will cooperate to help
@@ -99,16 +99,16 @@ export default function CodeOfConduct() {
               </ul>
             </p>
             <p>
-            This Code of Conduct applies to the actual meeting sites and venues where COSYNE Brainhack
+            This Code of Conduct applies to the actual meeting sites and venues where Pre-COSYNE Brainhack
             business is being conducted, including physical venues, online venues, and official virtual
-            engagement platforms, including video, virtual streaming, and chat-based interactions. COSYNE Brainhack
+            engagement platforms, including video, virtual streaming, and chat-based interactions. Pre-COSYNE Brainhack
             is not responsible for non-sponsored activity or behavior that may occur at non-sponsored
             locations such as hotels, restaurants, or physical or virtual locations not otherwise a sanctioned
             space for sponsored events. Nonetheless, any issues brought to the Organizers will be explored.
-            Moreover, COSYNE Brainhack will not actively monitor social media platforms
+            Moreover, Pre-COSYNE Brainhack will not actively monitor social media platforms
             but will follow up on issues of harassment and violations of the code of conduct that occur on
-            those platforms that are specifically related to the COSYNE Brainhack program, during the course of
-            COSYNE Brainhack, if and when they are brought to our attention.
+            those platforms that are specifically related to the Pre-COSYNE Brainhack program, during the course of
+            Pre-COSYNE Brainhack, if and when they are brought to our attention.
             </p>
             <h3>COMPLAINT REPORTING</h3>
             <p>
@@ -116,13 +116,13 @@ export default function CodeOfConduct() {
             harassment, unprofessional conduct, and/or retaliation so that complaints can be quickly and fairly
             resolved. There will be no retaliation against any Participant who brings a complaint or submits
             an incident report in good faith or who honestly assists in investigating such a complaint. If you
-            have concerns related to your participation/interaction at COSYNE Brainhack or COSYNE Brainhack
+            have concerns related to your participation/interaction at Pre-COSYNE Brainhack or Pre-COSYNE Brainhack
             sanctioned events, or observe someone else&apos;s difficulties, or have any other concerns you wish
             to share, please write to brainhack.cosyne@gmail.com.
             </p>
             <h3>ACTION</h3>
             <p>
-            If a Participant engages in any inappropriate behavior as defined herein, the COSYNE Brainhack
+            If a Participant engages in any inappropriate behavior as defined herein, the Pre-COSYNE Brainhack
             Organizers may take action as deemed appropriate, including: a formal or informal warning to the
             offender, expulsion from the event, barring from participation in future
             events or their organization, reporting the incident to the offender&apos;s local institution or
@@ -130,7 +130,7 @@ export default function CodeOfConduct() {
             &quot;just joking&quot; is not acceptable. If action is taken, an appeals process will be made available. There
             will be no retaliation against any Participant who brings a complaint or submits an incident report
             in good faith or who honestly assists in investigating such a complaint. All issues brought forth to
-            the COSYNE Brainhack Organizers during the course of the event will be immediately investigated.
+            the Pre-COSYNE Brainhack Organizers during the course of the event will be immediately investigated.
             </p>
           </div>
         </div>

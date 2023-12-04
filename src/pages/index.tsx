@@ -56,7 +56,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row md:flex-col items-center justify-center">
               <h2 className={`${bebas.className} mb-3 font-semibold  md:text-8xl mr-10 md:mr-0`}>
-                COSYNE<br/>Brainhack<br/>Hackathon
+                Pre-COSYNE<br/>Brainhack<br/>Hackathon
               </h2>
 
               <div className="flex flex-col items-center justify-center">
@@ -108,9 +108,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
-            <h3 className={`${bebas.className} mb-2 mt-6 text-4xl font-semibold text-gold`}>What is COSYNE Brainhack?</h3>
+            <h3 className={`${bebas.className} mb-2 mt-6 text-4xl font-semibold text-gold`}>What is Pre-COSYNE Brainhack?</h3>
             <p className="text-sand mb-2">
-              COSYNE Brainhack is a hackathon that brings together people who are passionate about open science,
+              Pre-COSYNE Brainhack is a hackathon that brings together people who are passionate about open science,
               open-source tools, and collaboration around computational and systems neuroscience. The hackathon
               provides an opportunity for people from different institutions to work together on projects of
               shared interest and learn from each other.
