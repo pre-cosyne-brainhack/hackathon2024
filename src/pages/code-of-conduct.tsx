@@ -76,7 +76,7 @@ export default function CodeOfConduct() {
                   </ul>
                 </li>
                 <li>
-                  <b>Inappropriate or unprofessional behavior that interferes with another's full participation
+                  <b>Inappropriate or unprofessional behavior that interferes with another&apos;s full participation
                     including:</b>
                   <ul>
                     <li>Sexual harassment, stalking, following, harassing photography or recording,
@@ -117,7 +117,7 @@ export default function CodeOfConduct() {
             resolved. There will be no retaliation against any Participant who brings a complaint or submits
             an incident report in good faith or who honestly assists in investigating such a complaint. If you
             have concerns related to your participation/interaction at COSYNE Brainhack or COSYNE Brainhack
-            sanctioned events, or observe someone else's difficulties, or have any other concerns you wish
+            sanctioned events, or observe someone else&apos;s difficulties, or have any other concerns you wish
             to share, please write to brainhack.cosyne@gmail.com.
             </p>
             <h3>ACTION</h3>
@@ -125,9 +125,9 @@ export default function CodeOfConduct() {
             If a Participant engages in any inappropriate behavior as defined herein, the COSYNE Brainhack
             Organizers may take action as deemed appropriate, including: a formal or informal warning to the
             offender, expulsion from the event, barring from participation in future
-            events or their organization, reporting the incident to the offender's local institution or
+            events or their organization, reporting the incident to the offender&apos;s local institution or
             funding agencies, or reporting the incident to local authorities or law enforcement. A response of
-            "just joking" is not acceptable. If action is taken, an appeals process will be made available. There
+            &quot;just joking&quot; is not acceptable. If action is taken, an appeals process will be made available. There
             will be no retaliation against any Participant who brings a complaint or submits an incident report
             in good faith or who honestly assists in investigating such a complaint. All issues brought forth to
             the COSYNE Brainhack Organizers during the course of the event will be immediately investigated.
