@@ -60,7 +60,7 @@ function Footer() {
     <footer className="relative flex justify-center px-1 py-16 bg-dirt text-gold">
       <div className="grid gap-10">
         <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-screen-xl 8xl:max-w-screen-6xl items-center justify-center text-center md:text-left md:pb-0">
-          <h1 className="text-5xl">COSYNE<br />Brainhack<br />2024</h1>
+          <h1 className="text-5xl">Pre-COSYNE<br />Brainhack<br />2024</h1>
           <div className="py-6 md:py-0">
             <h2 className="font-display text-3xl mb-0 text-center md:text-left">Organizers</h2>
             <p className="font-theme text-2xl mb-0">Ryan Ly</p>

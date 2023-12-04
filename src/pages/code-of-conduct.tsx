@@ -12,7 +12,7 @@ export default function CodeOfConduct() {
         <div className="bg-sand flex items-center justify-center py-0">
           <div className="max-w-6xl m-12 mt-0 md:m-16 md:mt-0">
             <h3>INTRODUCTION</h3>
-            Although Pre-COSYNE Brainhack is not associated with the main COSYNE conference, we follow an adapted
+            Although Pre-COSYNE Brainhack is not associated with the COSYNE conference, we follow an adapted
             version of the COSYNE Code of Conduct, except with different contact information and adjustments for
             our different scopes.
 
