@@ -42,13 +42,19 @@ export default function Projects({ projects }: { projects: Project[] }) {
           <h2>
             Projects
           </h2>
-          <p className="text-lg">The HackTrack is the official fun side of a Brainhack event, where people can work together on projects. What projects? Any kind! From exploding brains to resource gathering and data sharing!</p>
-          <p className="text-lg">Would you like to propose a project? Just open an issue on our GitHub repository and fill the template, we will be in touch to help you get going! But be sure to <a href={REGISTRATION_URL}>register first</a>!</p>
+          <p className="text-lg">
+            Participants will have two days (approximately 12 dedicated hours) to hack on a project.
+            Projects can be on anything. The suggested theme for this year is <strong>benchmarking</strong>.
+          </p>
+          <p className="text-lg"></p>
+            We will open up a form to submit project ideas soon.
+          </p>
+          {/* <p className="text-lg">Would you like to propose a project? Just open an issue on our GitHub repository and fill the template, we will be in touch to help you get going! But be sure to <a href={REGISTRATION_URL}>register first</a>!</p>
           <div className="pt-8 text-center">
             <a href={PROJECTS_SUBMISSION_URL} className="bg-sand-dark text-sand font-bold mt-4 py-2 px-4">
-              Submit your project now!
+              Submit your project idea now!
             </a>
-          </div>
+          </div> */}
 
           {/* <div className="mb-8 ml-4 animate-fade">
             <ul className="list-none flex justify-stretch items-stretch flex-wrap">
