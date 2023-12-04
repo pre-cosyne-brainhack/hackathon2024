@@ -380,16 +380,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.11":
-  version: 18.0.11
-  resolution: "@types/react-dom@npm:18.0.11"
+"@types/react-dom@npm:18.2.17":
+  version: 18.2.17
+  resolution: "@types/react-dom@npm:18.2.17"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 8bf1e3f710221a937613df4d192f3b9e5a30e5c3103cac52c5210fb56b79f7a8cc66137d3bc5c9d92d375165a97fae53284724191bc01cb9898564fa02595569
+  checksum: 33b53078ed7e9e0cfc4dc691e938f7db1cc06353bc345947b41b581c3efe2b980c9e4eb6460dbf5ddc521dd91959194c970221a2bd4bfad9d23ebce338e12938
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.35":
+"@types/react@npm:*":
   version: 18.0.35
   resolution: "@types/react@npm:18.0.35"
   dependencies:
@@ -397,6 +397,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 0a7aff2a500bf3d9f7b467f1125d8e83922f39635442b8c0f227fc4b08f2960c4d95457ac248d3b98f64632b0b38a845dcd0ec364300decd70b7239222a96ac7
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.41":
+  version: 18.2.41
+  resolution: "@types/react@npm:18.2.41"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 5cc72491ce8be95e7bbedd8bf039ca971772ecd22d989feb045af7e73247c7e6cff25a2f1c2200be461fb2f6b5aacef739e1ba9fd83c744209dfd3ce8aa75afe
   languageName: node
   linkType: hard
 
@@ -2052,8 +2063,8 @@ __metadata:
   dependencies:
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@types/node": "npm:18.15.11"
-    "@types/react": "npm:18.0.35"
-    "@types/react-dom": "npm:18.0.11"
+    "@types/react": "npm:18.2.41"
+    "@types/react-dom": "npm:18.2.17"
     autoprefixer: "npm:10.4.14"
     eslint: "npm:8.38.0"
     eslint-config-next: "npm:13.3.0"
