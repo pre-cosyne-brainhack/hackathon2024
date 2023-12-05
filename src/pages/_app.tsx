@@ -37,7 +37,7 @@ function Header() {
         <div className="flex w-full max-w-screen-xl 8xl:max-w-screen-6xl px-4 mx-auto">
           <h1 className="text-3xl"><Link href="/">Pre-COSYNE Brainhack 2024</Link></h1>
           <nav className="flex-grow justify-end items-start md:items-center flex group text-lg lg:text-lg">
-            <div className="hidden group-focus-within:flex md:flex gap-4 justify-end flex-col md:flex-row mb-4 mr-2 md:mb-0">
+            <div className="hidden group-focus-within:flex md:flex gap-6 justify-end flex-col md:flex-row mb-4 mr-2 md:mb-0 text-2xl">
               <div><Link href="/code-of-conduct">Code of Conduct</Link></div>
               <div><Link href="/schedule">Schedule</Link></div>
               <div><Link href="/projects">Projects</Link></div>
