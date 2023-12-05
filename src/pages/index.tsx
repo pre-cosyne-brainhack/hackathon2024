@@ -143,7 +143,8 @@ export default function Home() {
             participants are welcome to hack together into the night.
             </p>
             <p className="text-sand mb-2">
-            The hackathon will be hosted at the Champalimaud Center for the Unknown in Lisbon, Portugal.
+            The hackathon will be hosted at the <a href={MAPS_URL}>Champalimaud Center for the Unknown</a> in
+            Lisbon, Portugal.
             </p>
             <p className="text-sand mb-2">
             Since the hackathon is relatively short in duration, participants are strongly encouraged to
@@ -156,7 +157,7 @@ export default function Home() {
             collaboration not competition.
             </p>
             <p className="text-sand mb-2">
-            This hackathon is heavily inspired by the OHBM Hackathon, BrainHack, and EBRAINS/HBP/NeuralEnsemble
+            This hackathon is heavily inspired by the OHBM Hackathon, Brainhack, and EBRAINS/HBP/NeuralEnsemble
             CodeJam events.
             </p>
             <p className="text-sand">
