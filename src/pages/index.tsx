@@ -132,6 +132,38 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center items-center bg-jungle text-white">
+      <h2 className={`${bebas.className} mt-12 mb-2 text-6xl font-semibold text-gold`}>Logistics</h2>
+        <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
+          <div className="flex flex-col justify-center text-lg px-8 pb-8">
+            <p className="text-sand">
+            Pre-COSYNE Brainhack runs from February 27-28, 2024 - the two days preceding the COSYNE conference. It consists
+            of brief project pitches at the start, brief project presentations at the end, and an unconference session
+            in the middle where participants can give brief talks on topics of shared interest. The rest of the time
+            is dedicated to hacking and meals. The event runs from 8:30 AM to around 7 PM on both days, though
+            participants are welcome to hack together into the night.
+            </p>
+            <p className="text-sand">
+            The hackathon will be hosted at the Champalimaud Center for the Unknown in Lisbon, Portugal.
+            </p>
+            <p className="text-sand">
+            Since the hackathon is relatively short in duration, participants are strongly encouraged to
+            arrive in Lisbon by 6 PM the day before the hackathon (Feb. 26) to join other participants for
+            dinner and socializing. Participants are strongly encouraged to stay through the Simons Foundation
+            social at the end of the second day.
+            </p>
+            <p className="text-sand">
+            Unlike a traditional industry hackathon, there are no prizes. This hackathon is designed to encourage
+            collaboration not competition.
+            </p>
+            <p className="text-sand">
+            This hackathon is heavily inspired by the OHBM Hackathon, BrainHack, and EBRAINS/HBP/NeuralEnsemble
+            CodeJam events.
+            </p>
+            <p className="text-sand">
+            Pre-COSYNE Brainhack is not an official part of COSYNE.
+            </p>
+          </div>
+        </div>
         <h2 className={`${bebas.className} mt-12 mb-2 text-6xl font-semibold text-gold`}>FAQ</h2>
         <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
@@ -139,40 +171,42 @@ export default function Home() {
               Will travel or accommodation be provided?
             </p>
             <p className="text-sand">
-              No. We are unable to provide travel or accommodation for
-              participants. However, we will provide a list of recommended hotels in the area.
+              <li>
+                No. We are unable to provide travel or accommodation for
+                participants. However, we will provide a list of recommended hotels in the area.
+              </li>
             </p>
             <p className="text-sand">
               Will food be provided?
             </p>
             <p className="text-sand">
-              Breakfast, lunch, and coffee will be provided through a generous gift from the Simons
-              Collaboration on the Global Brain and the Center for Computational Neuroscience at the
-              Flatiron Institute. The Simons Foundation will also
-              be organizing a social with refreshments on the last day of the hackathon.
+              <li>
+                Breakfast, lunch, and coffee will be provided through a generous gift from the Simons
+                Collaboration on the Global Brain and the Center for Computational Neuroscience at the
+                Flatiron Institute. The Simons Foundation will also
+                be organizing a social with refreshments on the last day of the hackathon.
+              </li>
             </p>
             <p className="text-sand">
               Who is eligible to participate?
             </p>
             <p className="text-sand">
-              Anyone is welcome to participate! However, you must register in advance and due to
-              space constraints, we may not be able to accommodate everyone. In the event that more
-              people register than we can accommodate, we will accept participants on a first-come,
-              first-served basis.
-            </p>
-            <p className="text-sand">
-              Where will the hackathon take place?
-            </p>
-            <p className="text-sand">
-              The Champalimaud Centre for the Unknown in Lisbon, Portugal.
+              <li>
+                Anyone is welcome to participate! However, you must register in advance and, due to
+                space constraints, we may not be able to accommodate everyone. In the event that more
+                people register than we can accommodate, we will accept participants on a first-come,
+                first-served basis.
+              </li>
             </p>
             <p className="text-sand">
               When should I arrive to Lisbon?
             </p>
             <p className="text-sand">
-              Since the hackathon is relatively short in duration, participants are strongly encouraged to arrive in
-              Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
-              socializing.
+              <li>
+                Since the hackathon is relatively short in duration, participants are strongly encouraged to arrive in
+                Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
+                socializing.
+              </li>
             </p>
           </div>
         </div>
