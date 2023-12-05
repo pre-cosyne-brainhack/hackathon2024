@@ -205,7 +205,7 @@ export default function Home() {
               What is your COVID-19 vaccination and mask policy?
             </p>
             <p className="text-sand mb-4">
-                Pre-COSYNE Brainhack's COVID policy aligns with local guidelines. Currently, proof of vaccination
+                Pre-COSYNE Brainhack&apos;s COVID policy aligns with local guidelines. Currently, proof of vaccination
                 is not required, and while masks are strongly encouraged, they are not mandatory. If local guidelines
                 change, Pre-COSYNE Brainhack will adapt its policy accordingly.
             </p>
