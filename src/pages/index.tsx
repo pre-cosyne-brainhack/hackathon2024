@@ -56,7 +56,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row md:flex-col items-center justify-center">
               <h2 className={`${bebas.className} mb-3 font-semibold  md:text-8xl mr-10 md:mr-0`}>
-                Pre-COSYNE<br/>Brainhack<br/>Hackathon
+                Pre-COSYNE<br/>Brainhack
               </h2>
 
               <div className="flex flex-col items-center justify-center">
