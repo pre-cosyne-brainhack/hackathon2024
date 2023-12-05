@@ -200,6 +200,14 @@ export default function Home() {
                 Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
                 socializing.
             </p>
+            <p className="text-sand">
+              What is your COVID-19 vaccination and mask policy?
+            </p>
+            <p className="text-sand mb-4">
+                Pre-COSYNE Brainhack's COVID policy aligns with local guidelines. Currently, proof of vaccination
+                is not required, and while masks are strongly encouraged, they are not mandatory. If local guidelines
+                change, Pre-COSYNE Brainhack will adapt its policy accordingly.
+            </p>
           </div>
         </div>
       </div>
