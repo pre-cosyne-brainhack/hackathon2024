@@ -60,11 +60,11 @@ export default function Home() {
               </h2>
 
               <div className="flex flex-col items-center justify-center">
-                <div className={`${bebas.className} text-xl md:text-3xl lg:text-4xl p-2 text-center`}>
+                <div className={`${bebas.className} text-xl md:text-4xl lg:text-5xl p-2 text-center`}>
                   February 27-28, 2024
                 </div>
                 <div className="grid grid-cols-2 md:flex md:items-stretch gap-2 pt-2">
-                  <a className="bg-sand-dark text-sand font-bold py-2 px-4" href={REGISTRATION_URL}>
+                  <a className="bg-sand-dark text-sand font-bold md:text-2xl lg:text-3xl py-2 px-4" href={REGISTRATION_URL}>
                     Register
                   </a>
                 </div>
@@ -171,42 +171,34 @@ export default function Home() {
               Will travel or accommodation be provided?
             </p>
             <p className="text-sand">
-              <li>
                 No. We are unable to provide travel or accommodation for
                 participants. However, we will provide a list of recommended hotels in the area.
-              </li>
             </p>
             <p className="text-sand">
               Will food be provided?
             </p>
             <p className="text-sand">
-              <li>
                 Breakfast, lunch, and coffee will be provided through a generous gift from the Simons
                 Collaboration on the Global Brain and the Center for Computational Neuroscience at the
                 Flatiron Institute. The Simons Foundation will also
                 be organizing a social with refreshments on the last day of the hackathon.
-              </li>
             </p>
             <p className="text-sand">
               Who is eligible to participate?
             </p>
             <p className="text-sand">
-              <li>
                 Anyone is welcome to participate! However, you must register in advance and, due to
                 space constraints, we may not be able to accommodate everyone. In the event that more
                 people register than we can accommodate, we will accept participants on a first-come,
                 first-served basis.
-              </li>
             </p>
             <p className="text-sand">
               When should I arrive to Lisbon?
             </p>
             <p className="text-sand">
-              <li>
                 Since the hackathon is relatively short in duration, participants are strongly encouraged to arrive in
                 Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
                 socializing.
-              </li>
             </p>
           </div>
         </div>

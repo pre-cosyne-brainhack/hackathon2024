@@ -18,7 +18,7 @@ const nextConfig = {
     unoptimized: true,
   },
   publicRuntimeConfig: {
-    REGISTRATION_URL: 'TBD',
+    REGISTRATION_URL: 'https://docs.google.com/forms/d/e/1FAIpQLSc2Z_PTM8bGo_ViJ9vIWwCZ64zxGll6KlT5tKdEEWaEkE9tCA/viewform?usp=sf_link',
     PROJECTS_SUBMISSION_URL: 'TBD',
 
     MATTERMOST_URL: 'TBD',
