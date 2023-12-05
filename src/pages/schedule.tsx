@@ -44,7 +44,7 @@ export default function Schedule() {
               <div className="sticky font-bold border-gray-200 border-b-2">Into the night</div>
 
               <div className="sticky p-2 row-span-1 font-bold">
-                Feb. Date TBD
+                Early Feb., TBD
               </div>
               <div className="p-2 row-span-1">
               </div>
