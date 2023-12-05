@@ -22,7 +22,7 @@ const nextConfig = {
     PROJECTS_SUBMISSION_URL: 'TBD',
 
     MATTERMOST_URL: 'TBD',
-    GITHUB_URL: 'https://github.com/cosyne-brainhack/',
+    GITHUB_URL: 'https://github.com/cosyne-brainhack/hackathon2024',
     MAPS_URL: 'https://maps.app.goo.gl/opcrzuDBAvznkunQA',
     OHBM_HACKATHON_URL: 'https://github.com/ohbm/hackathon2023',
   },
