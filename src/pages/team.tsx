@@ -3,6 +3,7 @@ import TeamMember from '@/components/team-member'
 import RyanLy from '../../public/team/ryan-ly.png'
 import OlivierWinter from '../../public/team/olivier-winter.jpg'
 import FlorianRau from '../../public/team/florian-rau.jpeg'
+import GaelleChapuis from '../../public/team/gaelle-chapuis.jpeg'
 
 import getConfig from 'next/config'
 const {
@@ -21,7 +22,7 @@ export default function Team() {
         <h2>
           Team
         </h2>
-        <div className="grid grid-cols-3 gap-2 md:gap-12 lg:gap-12 max-w-5xl mt-12">
+        <div className="grid grid-cols-2 gap-2 md:gap-12 lg:gap-12 max-w-5xl mt-12">
           <TeamMember
             circle="circle"
             size={1}
@@ -50,6 +51,16 @@ export default function Team() {
             place="Lisbon, Portugal"
             social={{
               github: "bimac",
+            }}
+          />
+          <TeamMember
+            circle="circle"
+            size={1}
+            name="Gaelle Chapuis"
+            photo={GaelleChapuis.src}
+            place="Geneva, Switzerland"
+            social={{
+              github: "GaelleChapuis",
             }}
           />
         </div>

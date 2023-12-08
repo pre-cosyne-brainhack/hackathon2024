@@ -66,6 +66,7 @@ function Footer() {
             <p className="font-theme text-2xl mb-0">Ryan Ly</p>
             <p className="font-theme text-2xl mb-0">Olivier Winter</p>
             <p className="font-theme text-2xl mb-0">Florian Rau</p>
+            <p className="font-theme text-2xl mb-0">Gaelle Chapuis</p>
             <p className="text-l mb-0 pr-6 whitespace-pre-wrap break-words">brainhack.cosyne@gmail.com</p>
           </div>
           <nav className="font-primary flex md:gap-6 text-1xl justify-around">

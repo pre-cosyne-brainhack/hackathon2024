@@ -43,8 +43,11 @@ export default function Projects({ projects }: { projects: Project[] }) {
             Projects
           </h2>
           <p className="text-lg">
-            Participants will have two days (approximately 12 dedicated hours) to hack on a project.
-            Projects can be on anything. The suggested theme for this year is <strong>benchmarking</strong>.
+            Participants will have two days to hack on a project (approximately 12 dedicated hacking hours).
+          </p>
+          <p className="text-lg">
+            Projects can be on anything. The suggested theme for this year is
+            <strong>Benchmarks and Quality Control</strong>.
           </p>
           <p className="text-lg">
             We will open up a form to submit project ideas soon.
