@@ -8,7 +8,7 @@ import json
 def fetch_gh_issues():
 
     GH_AUTH = os.environ['GH_AUTH']
-    REPO = 'cosyne-brainhack/hackathon2024'
+    REPO = 'pre-cosyne-brainhack/hackathon2024'
     ISSUE_LABEL = 'Hackathon Project'
     ISSUE_READY_LABEL = 'Good to go'
     ISSUE_FILTER = f'labels={ISSUE_LABEL}&per_page=100'
