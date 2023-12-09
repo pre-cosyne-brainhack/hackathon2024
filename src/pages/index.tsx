@@ -153,12 +153,25 @@ export default function Home() {
             social at the end of the second day.
             </p>
             <p className="text-sand mb-2">
-            Unlike a traditional industry hackathon, there are no prizes. This hackathon is designed to encourage
+            Similar to hackathons in the tech sector, much of the schedule is left open for attendees to work
+            together on projects of their choosing. We also include an unconference session that consists of
+            talks that are chosen by the attendees based on their interests as they evolve throughout the meeting.
+            See the <Link href="/schedule">Schedule</Link> page for more details.
+            </p>
+            <p className="text-sand mb-2">
+            Unlike a hackathon in the tech sector, there are no prizes. This hackathon is designed to encourage
             collaboration not competition.
             </p>
             <p className="text-sand mb-2">
-            This hackathon is heavily inspired by the OHBM Hackathon, Brainhack, and EBRAINS/HBP/NeuralEnsemble
-            CodeJam events.
+            This hackathon is heavily inspired by the
+            &nbsp;<a href="https://ohbm.github.io/hackathon2023/">OHBM Hackathon</a>,
+            &nbsp;<a href="https://brainhack.org/">Brainhack</a>, and
+            &nbsp;<a href="https://www.brainsimulation.org/bsw/zwei/events/single/11217-ebrains-hbp-codejam-workshop-13">
+              EBRAINS/HBP/NeuralEnsemble CodeJam
+            </a> events. For more information about the history and culture of Brainhack, please see this
+            &nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0896627321002312">
+              Neuron NeuroView article
+            </a>.
             </p>
             <p className="text-sand">
             Pre-COSYNE Brainhack is not an official part of COSYNE.
