@@ -118,8 +118,12 @@ export default function Home() {
             <p className="text-sand">
               Projects can be on anything from integrating a data visualization tool with an analysis
               tool, to training an LLM to extract knowledge from neuroscience papers, to developing a tool for
-              tracking the usage of a software package in papers. Everyone is welcome; you do not need to be a
-              software engineer to participate.
+              tracking the usage of a software package in papers. Anyone is welcome to participate. However,
+              space is limited, so please <a href="{REGISTRATION_URL}">register</a> to attend soon.
+            </p>
+            <p className="text-sand">
+              If you cannot attend but would like to be notified of future events,
+              please <a href="https://docs.google.com/forms/d/e/1FAIpQLSdH_LikO1-7HiVcM-Utu9r_0GEWcSiuwcFLck7f9zZgKC9OOw/viewform?usp=sf_link">join for our mailing list</a>.
             </p>
           </div>
         </div>
@@ -139,8 +143,7 @@ export default function Home() {
             Pre-COSYNE Brainhack runs from February 27-28, 2024 - the two days preceding the COSYNE conference. It consists
             of brief project pitches at the start, brief project presentations at the end, and an unconference session
             in the middle where participants can give brief talks on topics of shared interest. The rest of the time
-            is dedicated to hacking and meals. The event runs from 8:30 AM to around 7 PM on both days, though
-            participants are welcome to hack together into the night.
+            is dedicated to hacking and meals. The event runs from 8:30 AM to around 7 PM on both days.
             </p>
             <p className="text-sand mb-2">
             The hackathon will be hosted at the <a href={MAPS_URL}>Champalimaud Center for the Unknown</a> in
@@ -181,14 +184,14 @@ export default function Home() {
         <h2 className={`${bebas.className} mt-12 mb-2 text-6xl font-semibold text-gold`}>FAQ</h2>
         <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
-            <p className="text-sand">
+            <p className="text-sand text-bolder">
               Will travel or accommodation be provided?
             </p>
             <p className="text-sand mb-4">
                 No. We are unable to provide travel or accommodation for
                 participants. However, we will provide a list of recommended hotels in the area.
             </p>
-            <p className="text-sand">
+            <p className="text-sand text-bolder">
               Will food be provided?
             </p>
             <p className="text-sand mb-4">
@@ -197,16 +200,14 @@ export default function Home() {
                 Flatiron Institute. The Simons Foundation will also
                 be organizing a social with refreshments on the last day of the hackathon.
             </p>
-            <p className="text-sand">
+            <p className="text-sand text-bolder">
               Who is eligible to participate?
             </p>
             <p className="text-sand mb-4">
                 Anyone is welcome to participate! However, you must register in advance and, due to
-                space constraints, we may not be able to accommodate everyone. In the event that more
-                people register than we can accommodate, we will accept participants on a first-come,
-                first-served basis.
+                space constraints, we may not be able to accommodate everyone.
             </p>
-            <p className="text-sand">
+            <p className="text-sand text-bolder">
               When should I arrive to Lisbon?
             </p>
             <p className="text-sand mb-4">
@@ -214,13 +215,17 @@ export default function Home() {
                 Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
                 socializing.
             </p>
-            <p className="text-sand">
+            <p className="text-sand text-bolder">
               What is your COVID-19 vaccination and mask policy?
             </p>
             <p className="text-sand mb-4">
                 Pre-COSYNE Brainhack&apos;s COVID policy aligns with local guidelines. Currently, proof of vaccination
-                is not required, and while masks are strongly encouraged, they are not mandatory. If local guidelines
-                change, Pre-COSYNE Brainhack will adapt its policy accordingly.
+                is not required, and while masks are strongly encouraged, they are not mandatory. In addition to local
+                guidelines, there are a couple additional policies. If you are sick,
+                please notify the organizers and DO NOT attend the hackathon in-person. We will work out an alternate
+                way for you to participate. Testing for COVID prior to attendance is strongly encouraged, but not
+                mandatory.
+                If local guidelines change, Pre-COSYNE Brainhack will adapt its policy accordingly.
             </p>
           </div>
         </div>

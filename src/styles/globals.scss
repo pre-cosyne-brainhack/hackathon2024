@@ -325,9 +325,10 @@ main > * {
     }
 }
 
-footer, p a {
+footer a, p a {
     @apply underline underline-offset-2;
 }
+
 
 .logo {
     background-color: rgb(255, 255, 255)

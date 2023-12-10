@@ -46,21 +46,21 @@ export default function Team() {
           <TeamMember
             circle="circle"
             size={1}
-            name="Florian Rau"
-            photo={FlorianRau.src}
-            place="Lisbon, Portugal"
-            social={{
-              github: "bimac",
-            }}
-          />
-          <TeamMember
-            circle="circle"
-            size={1}
             name="Gaelle Chapuis"
             photo={GaelleChapuis.src}
             place="Geneva, Switzerland"
             social={{
               github: "GaelleChapuis",
+            }}
+          />
+          <TeamMember
+            circle="circle"
+            size={1}
+            name="Florian Rau"
+            photo={FlorianRau.src}
+            place="Lisbon, Portugal"
+            social={{
+              github: "bimac",
             }}
           />
         </div>
