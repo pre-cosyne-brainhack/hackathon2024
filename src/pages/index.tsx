@@ -102,9 +102,13 @@ export default function Home() {
               shared interest and learn from each other.
             </p>
             <p className="text-sand mb-2">
-              Projects can be on anything from integrating a data visualization tool with an analysis
-              tool, to training an LLM to extract knowledge from neuroscience papers, to developing a tool for
-              tracking the usage of a software package in papers. Anyone is welcome to participate. However,
+              Projects can be on any topic. They can range from integrating a data visualization tool with an
+              analysis tool, to training an LLM to extract knowledge from neuroscience papers, to creating a website
+              to host data analysis challenges and leaderboards. The suggested theme for this year
+              is Benchmarks and Quality Control.
+            </p>
+            <p className="text-sand mb-2">
+              Anyone is welcome to participate. However,
               space is limited, so please <a href={REGISTRATION_URL}>register</a> to attend soon.
             </p>
             <p className="text-sand mb-2">
