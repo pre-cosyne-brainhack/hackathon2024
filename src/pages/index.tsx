@@ -123,7 +123,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center bg-jungle text-white">
         <h2 className={`${bebas.className} mt-12 mb-4 text-6xl font-semibold text-gold`}>Logistics</h2>
-        <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
+        <div className="grid max-w-4xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
             <p className="text-sand mb-2">
             Pre-COSYNE Brainhack runs from February 27-28, 2024 - the two days preceding the COSYNE conference. It consists
@@ -164,7 +164,7 @@ export default function Home() {
       </div>
       <div className="jungle-solo flex justify-center items-center">
         <h2 className={`${bebas.className} mt-12 mb-4 text-6xl font-semibold`}>FAQ</h2>
-        <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
+        <div className="grid max-w-4xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
             <p className="text-bolder">
               Will travel or accommodation be provided?
