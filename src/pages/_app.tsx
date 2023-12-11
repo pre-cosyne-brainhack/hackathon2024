@@ -59,7 +59,7 @@ function Footer() {
   return (
     <footer className="relative flex justify-center px-1 py-16 bg-dirt text-gold">
       <div className="grid gap-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-screen-xl 8xl:max-w-screen-6xl items-center justify-center text-center md:text-left md:pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-screen-xl 8xl:max-w-screen-6xl items-center justify-center text-center md:text-left md:pb-0">
           <h1 className="text-5xl">Pre-COSYNE<br />Brainhack<br />2024</h1>
           <div className="py-6 md:py-0">
             <h2 className="font-display text-3xl mb-0 text-center md:text-left">Organizers</h2>
@@ -71,19 +71,21 @@ function Footer() {
           </div>
           <nav className="font-primary flex md:gap-6 text-1xl justify-around">
             <div className="flex flex-col gap-1">
+              <div><Link href="/">Home</Link></div>
               <div><Link href="/code-of-conduct">Code of Conduct</Link></div>
               <div><Link href="/schedule">Schedule</Link></div>
               <div><Link href="/projects">Projects</Link></div>
               <div><Link href="/team">Team</Link></div>
             </div>
             <div className="flex flex-col gap-1">
-              <div><a href={MATTERMOST_URL}>Mattermost</a></div>
-              <div><a href={GITHUB_URL}>Github</a></div>
+              {/* <div><a href={MATTERMOST_URL}>Mattermost</a></div> */}
+              <div><a href={GITHUB_URL}>GitHub</a></div>
             </div>
           </nav>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-col">
           <h3>Website design adapted with permission from the <a href={OHBM_HACKATHON_URL}>OHBM Hackathon 2023 website</a></h3>
+          <p className="mt-2 text-xs">Poly brain image on homepage adapted from image from © [Deemerwha studio] / Adobe Stock</p>
         </div>
       </div>
     </footer>

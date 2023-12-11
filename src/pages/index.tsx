@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { Bebas_Neue, Covered_By_Your_Grace } from 'next/font/google'
+import { Bebas_Neue } from 'next/font/google'
 import { BsGithub } from 'react-icons/bs'
 import { SiMattermost } from 'react-icons/si'
 import { FaMapMarkerAlt } from 'react-icons/fa'
-import GoldenBrain from '../../public/golden-brain.png'
-import BrainMap from '../../public/brain-map.png'
+import GoldenBrain from '../../public/gold-poly-brain.png'
+import BrainhackLogo from '../../public/brainhack-logo.png'
 import Link from 'next/link'
 
 import SimonsFoundationLogo from '../../public/sponsors/simons-foundation.svg'
@@ -21,7 +21,6 @@ const {
 } = getConfig()
 
 const bebas = Bebas_Neue({ weight: '400', subsets: ['latin'] })
-const apple = Covered_By_Your_Grace({ weight: '400', subsets: ['latin'] })
 
 const Button = ({ className, ...props }: React.HTMLAttributes<HTMLAnchorElement>) =>
   <a className={`bg-sand-dark text-sand font-bold py-2 px-4 ${className}`} {...props}>
@@ -36,23 +35,13 @@ export default function Home() {
   return (
     <main>
       <div className={`
-        p-12 md:p-10 lg:p-12 lg:pt-18 min-h-full lg:min-h-screen lg:max-h-screen
+        p-12 md:p-10 lg:p-12 lg:pt-18 h-[95vh] min-h-[95vh] lg:min-h-[95vh] lg:max-h-screen
         flex justify-center items-center flex-grow relative
       `}>
         <div className={`
           relative max-w-6xl text-center
-          grid grid-cols-1 md:grid-cols-2 flex-grow
+          grid grid-cols-1 md:grid-cols-2 flex-grow gap-24
         `}>
-          {/* TODO: move COVID notice down and move other content up */}
-          {/* <div className="md:absolute top-0 p-2 bg-jungle text-white text-left text-sm">
-            <p className="font-bold m-0">COVID-19 notice</p>
-            <p className="m-0">
-              The Hackathon&apos;s policy aligns with local guidelines.
-              Currently, proof of vaccination is not required, and while masks are strongly encouraged, they are not mandatory.
-              If local guidelines change, the Hackathon will adapt its policy accordingly.
-              Masks will be available for attendees.
-            </p>
-          </div> */}
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row md:flex-col items-center justify-center">
               <h2 className={`${bebas.className} mb-3 font-semibold  md:text-8xl mr-10 md:mr-0`}>
@@ -63,32 +52,29 @@ export default function Home() {
                 <div className={`${bebas.className} text-xl md:text-4xl lg:text-5xl p-2 text-center`}>
                   February 27-28, 2024
                 </div>
-                <div className="grid grid-cols-2 md:flex md:items-stretch gap-2 pt-2">
+                <div className="grid grid-cols-2 md:flex md:items-stretch gap-2 pt-6">
                   <a className="bg-sand-dark text-sand font-bold md:text-2xl lg:text-3xl py-2 px-4" href={REGISTRATION_URL}>
                     Register
                   </a>
                 </div>
               </div>
             </div>
-            <div className="text-sand text-4xl md:text-6xl flex gap-4 md:gap-10 mt-8 md:pt-20 pb-0">
-              <a href={MATTERMOST_URL}><SiMattermost className="filter drop-shadow-opaque" /></a>
+            <div className="text-sand text-4xl md:text-6xl flex gap-4 md:gap-10 mt-4 md:pt-10 pb-0">
+              {/* <a href={MATTERMOST_URL}><SiMattermost className="filter drop-shadow-opaque" /></a> */}
               <a href={GITHUB_URL}><BsGithub className="filter drop-shadow-opaque" /></a>
               <a href={MAPS_URL}><FaMapMarkerAlt className="filter drop-shadow-opaque" /></a>
             </div>
           </div>
-          <div className="relative flex flex-col md:px-0 items-center justify-center text-bolder shadow-white">
-            <div className={`md:p-2 ${apple.className} text-xl md:text-3xl text-center text-sand-dark text-bolder shadow-black font-bold`}>
-              Connect, Collaborate, Code
-            </div>
+          <div className="relative flex flex-col md:px-0 items-center justify-center text-bolder">
             <Image
-              className="object-contain max-h-3/4 md:max-h-1/2 lg:max-h-1/2 xl:max-h-3/5 !relative"
+              className="sm:max-w-md max-w-1xl !relative"
               src={GoldenBrain}
               alt="The Golden Brain"
               priority
-              fill
-              sizes="(max-width: 768px) 60vw,
-                      (max-width: 1280px) 40vw,
-                      50vw"
+              // fill
+              // sizes="(max-width: 768px) 60vw,
+              //         (max-width: 1280px) 40vw,
+              //         50vw"
             />
           </div>
         </div>
@@ -98,8 +84,8 @@ export default function Home() {
           <div className="flex md:px-0 mb-10 md:mb-0 items-center">
             <Image
               className="object-contain !relative max-h-4/5 flex-grow"
-              src={BrainMap}
-              alt="Brain Map"
+              src={BrainhackLogo}
+              alt="Brainhack Logo"
               priority
               fill
               sizes="(max-width: 768px) 100vw,
@@ -115,13 +101,13 @@ export default function Home() {
               provides an opportunity for people from different institutions to work together on projects of
               shared interest and learn from each other.
             </p>
-            <p className="text-sand">
+            <p className="text-sand mb-2">
               Projects can be on anything from integrating a data visualization tool with an analysis
               tool, to training an LLM to extract knowledge from neuroscience papers, to developing a tool for
               tracking the usage of a software package in papers. Anyone is welcome to participate. However,
-              space is limited, so please <a href="{REGISTRATION_URL}">register</a> to attend soon.
+              space is limited, so please <a href={REGISTRATION_URL}>register</a> to attend soon.
             </p>
-            <p className="text-sand">
+            <p className="text-sand mb-2">
               If you cannot attend but would like to be notified of future events,
               please <a href="https://docs.google.com/forms/d/e/1FAIpQLSdH_LikO1-7HiVcM-Utu9r_0GEWcSiuwcFLck7f9zZgKC9OOw/viewform?usp=sf_link">join for our mailing list</a>.
             </p>
@@ -129,14 +115,14 @@ export default function Home() {
         </div>
       </div>
       <div className="jungle-solo flex items-center py-10">
-        <h2 className={`${bebas.className} mb-2 text-6xl font-semibold text-gold`}>Sponsors</h2>
+        <h2 className={`${bebas.className} mb-2 text-6xl font-semibold`}>Sponsors</h2>
         <div className="flex flex-wrap items-center justify-center">
           <Link className="mx-20 lg:w-1/5 m-5 logo" href="https://www.simonsfoundation.org/collaborations/global-brain/"><Image src={SimonsFoundationLogo} alt="Simons Foundation" /></Link>
           <Link className="mx-20 lg:w-1/5 m-5 logo" href="https://www.simonsfoundation.org/flatiron/center-for-computational-neuroscience"><Image src={FlatironInstituteLogo} alt="Flatiron Institute" /></Link>
         </div>
       </div>
       <div className="flex justify-center items-center bg-jungle text-white">
-      <h2 className={`${bebas.className} mt-12 mb-2 text-6xl font-semibold text-gold`}>Logistics</h2>
+        <h2 className={`${bebas.className} mt-12 mb-4 text-6xl font-semibold text-gold`}>Logistics</h2>
         <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
             <p className="text-sand mb-2">
@@ -166,66 +152,62 @@ export default function Home() {
             collaboration not competition.
             </p>
             <p className="text-sand mb-2">
-            This hackathon is heavily inspired by the
-            &nbsp;<a href="https://ohbm.github.io/hackathon2023/">OHBM Hackathon</a>,
-            &nbsp;<a href="https://brainhack.org/">Brainhack</a>, and
-            &nbsp;<a href="https://www.brainsimulation.org/bsw/zwei/events/single/11217-ebrains-hbp-codejam-workshop-13">
-              EBRAINS/HBP/NeuralEnsemble CodeJam
-            </a> events. For more information about the history and culture of Brainhack, please see this
-            &nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0896627321002312">
-              Neuron NeuroView article
-            </a>.
+            This hackathon is heavily inspired by
+            the <a href="https://ohbm.github.io/hackathon2023/">OHBM Hackathon</a>, <a href="https://brainhack.org/">Brainhack</a>, and <a href="https://www.brainsimulation.org/bsw/zwei/events/single/11217-ebrains-hbp-codejam-workshop-13"> EBRAINS/HBP/NeuralEnsemble CodeJam
+            </a> events. For more information about the history and culture of Brainhack, please see this <a href="https://www.sciencedirect.com/science/article/pii/S0896627321002312">Neuron NeuroView article</a>.
             </p>
             <p className="text-sand">
             Pre-COSYNE Brainhack is not an official part of COSYNE.
             </p>
           </div>
         </div>
-        <h2 className={`${bebas.className} mt-12 mb-2 text-6xl font-semibold text-gold`}>FAQ</h2>
+      </div>
+      <div className="jungle-solo flex justify-center items-center">
+        <h2 className={`${bebas.className} mt-12 mb-4 text-6xl font-semibold`}>FAQ</h2>
         <div className="grid max-w-6xl min-h-1/4 grid-cols-1">
           <div className="flex flex-col justify-center text-lg px-8 pb-8">
-            <p className="text-sand text-bolder">
+            <p className="text-bolder">
               Will travel or accommodation be provided?
             </p>
-            <p className="text-sand mb-4">
+            <p className="mb-4">
                 No. We are unable to provide travel or accommodation for
                 participants. However, we will provide a list of recommended hotels in the area.
             </p>
-            <p className="text-sand text-bolder">
+            <p className="text-bolder">
               Will food be provided?
             </p>
-            <p className="text-sand mb-4">
+            <p className="mb-4">
                 Breakfast, lunch, and coffee will be provided through a generous gift from the Simons
                 Collaboration on the Global Brain and the Center for Computational Neuroscience at the
                 Flatiron Institute. The Simons Foundation will also
                 be organizing a social with refreshments on the last day of the hackathon.
             </p>
-            <p className="text-sand text-bolder">
+            <p className="text-bolder">
               Who is eligible to participate?
             </p>
-            <p className="text-sand mb-4">
+            <p className="mb-4">
                 Anyone is welcome to participate! However, you must register in advance and, due to
                 space constraints, we may not be able to accommodate everyone.
             </p>
-            <p className="text-sand text-bolder">
+            <p className="text-bolder">
               When should I arrive to Lisbon?
             </p>
-            <p className="text-sand mb-4">
+            <p className="mb-4">
                 Since the hackathon is relatively short in duration, participants are strongly encouraged to arrive in
                 Lisbon by 18:00 the day before the hackathon (Feb. 26) to join other participants for dinner and
                 socializing.
             </p>
-            <p className="text-sand text-bolder">
+            <p className="text-bolder">
               What is your COVID-19 vaccination and mask policy?
             </p>
-            <p className="text-sand mb-4">
-                Pre-COSYNE Brainhack&apos;s COVID policy aligns with local guidelines. Currently, proof of vaccination
-                is not required, and while masks are strongly encouraged, they are not mandatory. In addition to local
-                guidelines, there are a couple additional policies. If you are sick,
-                please notify the organizers and DO NOT attend the hackathon in-person. We will work out an alternate
-                way for you to participate. Testing for COVID prior to attendance is strongly encouraged, but not
-                mandatory.
-                If local guidelines change, Pre-COSYNE Brainhack will adapt its policy accordingly.
+            <p className="mb-4">
+              Pre-COSYNE Brainhack&apos;s COVID policy aligns with local guidelines. Currently, proof of vaccination
+              is not required, and while masks are strongly encouraged, they are not mandatory. In addition to local
+              guidelines, there are a couple additional policies. If you are sick,
+              please notify the organizers and DO NOT attend the hackathon in-person. We will work out an alternate
+              way for you to participate. Testing for COVID prior to attendance is strongly encouraged, but not
+              mandatory.
+              If local guidelines change, Pre-COSYNE Brainhack will adapt its policy accordingly.
             </p>
           </div>
         </div>

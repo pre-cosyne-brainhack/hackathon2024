@@ -12,17 +12,17 @@ const {
 } = getConfig()
 
 export async function getStaticProps() {
-  return { props: { bodyClassName: 'jungle full-jungle fixed-jungle' } }
+  return { props: { bodyClassName: 'jungle fade-jungle' } }
 }
 
 export default function Team() {
   return (
     <main>
-      <div className="text-sand-light flex flex-col items-center">
+      <div className="flex flex-col items-center">
         <h2>
           Team
         </h2>
-        <div className="grid grid-cols-2 gap-2 md:gap-12 lg:gap-12 max-w-5xl mt-12">
+        <div className="grid grid-cols-2 gap-2 md:gap-y-12 lg:gap-y-12 md:gap-x-24 lg:gap-x-24 max-w-5xl mt-12">
           <TeamMember
             circle="circle"
             size={1}
