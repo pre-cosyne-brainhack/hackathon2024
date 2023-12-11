@@ -85,7 +85,8 @@ function Footer() {
         </div>
         <div className="flex flex-col">
           <h3>Website design adapted with permission from the <a href={OHBM_HACKATHON_URL}>OHBM Hackathon 2023 website</a></h3>
-          <p className="mt-2 text-xs">Poly brain image on homepage adapted from image from © [Deemerwha studio] / Adobe Stock</p>
+          <p className="mt-2 text-xs">Champalimaud image on home page adapted from photo from Francesca Bersellini / Fundação Champalimaud / <a href="https://www.flickr.com/photos/francescabe/14998718845/">Flickr</a> / CC BY-NC-SA 2.0 DEED</p>
+          <p className="mt-2 text-xs">Poly brain image on home page adapted from image from © [Deemerwha studio] / Adobe Stock</p>
         </div>
       </div>
     </footer>
