@@ -30,7 +30,7 @@ function Header() {
         <meta property="og:title" content="Pre-COSYNE Brainhack 2024" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pre-cosyne-brainback.github.io/hackathon2024/" />
-        <meta property="og:description" content="Let's get together to learn about open science and to collaborate on neuroscience projects!" />
+        <meta property="og:description" content="Let's get together to collaborate on computational and systems neuroscience projects!" />
         {/* <meta property="og:image" content={OGImage.src} /> */}
       </Head>
       <header className="font-display w-full absolute top-0 left-0 h-fit right-0 justify-center px-1 py-2 bg-dirt text-gold uppercase z-50">
