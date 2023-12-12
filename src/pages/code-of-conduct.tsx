@@ -13,8 +13,8 @@ export default function CodeOfConduct() {
           <div className="max-w-6xl m-12 mt-0 md:m-16 md:mt-0">
             <h3>INTRODUCTION</h3>
             Although Pre-COSYNE Brainhack is not associated with the COSYNE conference, we follow an adapted
-            version of the COSYNE Code of Conduct, with modified contact information and adjustments for
-            our different scopes.
+            version of the COSYNE Code of Conduct (below) as well as
+            the <a href="https://brainhack.org/code-of-conduct">Brainhack Code of Conduct</a>.
 
             <h3>PURPOSE</h3>
             <p>
