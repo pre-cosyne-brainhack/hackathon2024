@@ -32,16 +32,16 @@ export default function CodeOfConduct() {
             <p>
               The following code of conduct has been adapted from:
               <ul>
-                  <li>https://www.grc.org/about/grc-policiesand-legal-disclaimers/</li>
-                  <li>https://www.sfn.org/about/professional-conduct/code-of-conduct-at-sfn-events</li>
-                  <li>https://nips.cc/public/CodeOfConduct</li>
+                  <li><a href="https://www.grc.org/about/grc-policiesand-legal-disclaimers/">https://www.grc.org/about/grc-policiesand-legal-disclaimers/</a></li>
+                  <li><a href="https://www.sfn.org/about/professional-conduct/code-of-conduct-at-sfn-events">https://www.sfn.org/about/professional-conduct/code-of-conduct-at-sfn-events</a></li>
+                  <li><a href="https://nips.cc/public/CodeOfConduct">https://nips.cc/public/CodeOfConduct</a></li>
               </ul>
             </p>
             <p>
               Other online resources:
               <ul>
-                <li>http://changingourcampus.org/</li>
-                <li>https://www.sfn.org/Membership/Professional-Conduct/SfNEthics-Policy</li>
+                <li><a href="http://changingourcampus.org/">http://changingourcampus.org/</a></li>
+                <li><a href="https://www.sfn.org/Membership/Professional-Conduct/SfNEthics-Policy">https://www.sfn.org/Membership/Professional-Conduct/SfNEthics-Policy</a></li>
               </ul>
             </p>
             <h3>RESPONSIBILITIES</h3>
