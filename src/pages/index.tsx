@@ -112,8 +112,8 @@ export default function Home() {
               space is limited, so please <a href={REGISTRATION_URL}>register</a> to attend soon.
             </p>
             <p className="test-sand mb-2">
-              <strong>Update 2024-01-09: All spots have been filled for Pre-COSYNE Brainhack 2024. 
-              We will notify current applicants about their acceptance or waitlist status by 2024-01-12.</strong>
+              <strong>Update 2024-01-09: All spots have been filled for Pre-COSYNE Brainhack 2024.
+              We will notify current applicants about their acceptance or waitlist status by 2024-01-16.</strong>
             </p>
             <p className="text-sand mb-2">
               If you cannot attend but would like to be notified of future events,
