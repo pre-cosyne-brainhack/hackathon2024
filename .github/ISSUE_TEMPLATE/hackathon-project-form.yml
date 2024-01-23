@@ -9,11 +9,8 @@ body:
     attributes:
       value: |
         *We are very excited to meet you at the 2024 Pre-COSYNE Brainhack 🎉*
-        *Please fill out this form to submit your project. You can find more information about the project submission
-        process in [the guide](https://github.com/pre-cosyne-brainhack/hackathon2024/blob/main/.github/ISSUE_TEMPLATE/handbooks/projects.md)
-        (at least all 'required' items must be provided).
+        *Please fill out this form to submit your project. You can find more information about the project submission process in [the guide](https://github.com/pre-cosyne-brainhack/hackathon2024/blob/main/.github/ISSUE_TEMPLATE/handbooks/projects.md).
         If at any time you need help or anything is unclear, please add a comment to alert the organizers.*
-
         Thank you!
 
   - type: input
@@ -43,7 +40,7 @@ body:
   - type: input
     id: website-image
     attributes:
-      label: Image for the 2024 Pre-COSYNE Brainhack website and proceedings
+      label: Image for the Brainhack website and potential proceedings/report
       description: Please provide a link only (not required, but highly recommended).
     validations:
       required: false
@@ -53,7 +50,7 @@ body:
     attributes:
       label: Project lead(s)
       description: Your name and GitHub login. You can add multiple leaders.
-      placeholder: One per line
+      placeholder: One per line, e.g., John Doe (@johndoe)
     validations:
       required: true
 
@@ -70,7 +67,7 @@ body:
     id: tutorials
     attributes:
       label: Recommended tutorials or documentation for new contributors
-      description: Please provide links to tutorials or documentation that might be helpful for new contributors.
+      description: Please provide links to information that might be helpful for new contributors.
     validations:
       required: false
 
@@ -78,7 +75,7 @@ body:
     id: issues
     attributes:
       label: Good first issues
-      description: If you welcome new contributors, please provide a list of good-first-issues (not required, but highly recommended), check [the guide](https://github.com/pre-cosyne-brainhack/hackathon2024/blob/main/.github/ISSUE_TEMPLATE/handbooks/projects.md#good-first-issues) for suggestions.
+      description: If you welcome new contributors, please provide a list of good-first-issues (not required, but recommended), check [the guide](https://github.com/pre-cosyne-brainhack/hackathon2024/blob/main/.github/ISSUE_TEMPLATE/handbooks/projects.md#good-first-issues) for suggestions.
     validations:
       required: false
 

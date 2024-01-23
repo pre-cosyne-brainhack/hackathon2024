@@ -37,16 +37,6 @@ For some other projects it could be a set of **SMART** goals:
 -   Relevant (reasonable, realistic and resourced, results-based).
 -   Time bound (time-based, time limited, time/cost limited, timely, time-sensitive).
 
-### Good first issues
-
-If you have set up a repository for your code, it would be great if you open at least 1 `good first issues`
-issues that describe the goals you would like to achieve in this Brainhack.
-
-Some examples:
--   improve documentation or tutorial for a package
--   fix an easy bug
--   add tests for specific features
-
 ### Onboarding: skills
 
 List skills that would be particularly suitable for your project. Skills can include coding skills and non-coding skills.
@@ -104,7 +94,17 @@ knows how to develop good, tidy and clear documentation?
 | Git - 2 | comfortable working with branches and can do a pull request on another repository |
 | Git - 3 | can work with continuous integration                                              |
 
-### Credit and onboarding
+### Onboarding: Good first issues
+
+If you have set up a repository for your code, it would be great if you open at least 1 `good first issues`
+issues that describe the goals you would like to achieve in this Brainhack.
+
+Some examples:
+-   improve documentation or tutorial for a package
+-   fix an easy bug
+-   add tests for specific features
+
+### Onboarding: Supporting different kinds of contributors
 
 How would your project onboard new members with different skillsets -- physicist/imager/clinician/psychologist/computational
 scientist/maker/artist/lawyer -- as a project collaborator?
@@ -113,3 +113,7 @@ We recommend that you read through Mozilla Open Leadership material on
 [personas](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/) and [contribution guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/).
 
 If you want to easily list contributors on your repository you can look into the [all contributors bot](https://github.com/all-contributors/all-contributors-bot).
+
+## Credit
+
+This handbook is adapted from the [OHBM Brainhack 2023 handbook](https://github.com/ohbm/hackathon2023/blob/main/.github/ISSUE_TEMPLATE/handbooks/projects.md).
