@@ -47,7 +47,7 @@ export default function Projects({ projects }: { projects: Project[] }) {
             Projects can be on anything. The suggested theme for this year is <strong>Benchmarks and Quality Control</strong>.
           </p>
           <p className="text-lg mt-6">
-            We will open up a form to submit project ideas soon.
+            Participants should have received an invite to a Google doc with the proposed projects.
           </p>
           {/* <p className="text-lg">Would you like to propose a project? Just open an issue on our GitHub repository and fill the template, we will be in touch to help you get going! But be sure to <a href={REGISTRATION_URL}>register first</a>!</p>
           <div className="pt-8 text-center">
